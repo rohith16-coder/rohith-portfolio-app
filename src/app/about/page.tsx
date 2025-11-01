@@ -23,15 +23,15 @@ const AboutPage = () => {
         {/*Bio section*/}
         <motion.section {...fadeInUp} className="mb-16">
           <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-            Hey there! I’m Mohan Kumar, a passionate and curious Full Stack
+            Hey there! I&#39;m Rohith, a passionate and curious Full Stack
             Developer who loves turning ideas into reality through clean code
             and creative design. I may be early in my journey, but my ambition
             is sky-high—fueled by a deep desire to learn, build, and grow every
             single day. Inspired by tech heroes like Iron Man, I dream of
-            inventing tools that help people and make the world better. When I’m
-            not coding, I’m either leveling up my skills, geeking out over
-            futuristic tech, or planning my next big idea. Let’s build something
-            amazing together!
+            inventing tools that help people and make the world better. When
+            I&#39;m not coding, I&#39;m either leveling up my skills, geeking
+            out over futuristic tech, or planning my next big idea. I&#39;m
+            build something amazing together!
           </p>
         </motion.section>
 
@@ -60,9 +60,7 @@ const AboutPage = () => {
               <FaCode className="h-8 w-8 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-4">Fontend</h3>
               <ul className="text-secondary space-y-2">
-                <li>React / Next.js</li>
-                <li>TypeScript</li>
-                <li>Taiwind CSS</li>
+                <li>JavaScript</li>
                 <li>HTML5 / CSS3</li>
               </ul>
             </motion.div>
@@ -76,10 +74,7 @@ const AboutPage = () => {
               <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-4">Backend</h3>
               <ul className="text-secondary space-y-2">
-                <li>Java</li>
-                <li>node / Express.js</li>
-                <li>MySQL</li>
-                <li>PostgresSQL</li>
+                <li>Python</li>
               </ul>
             </motion.div>
             {/*3.tools*/}
@@ -93,9 +88,8 @@ const AboutPage = () => {
               <h3 className="text-xl font-semibold mb-4">Tools & Others</h3>
               <ul className="text-secondary space-y-2">
                 <li>Git / GitHub</li>
-                <li>Postman</li>
-                <li>Docker</li>
-                <li>AWS</li>
+                <li>Cursor</li>
+                <li>Visual studio Code</li>
               </ul>
             </motion.div>
           </motion.div>
@@ -112,15 +106,14 @@ const AboutPage = () => {
           >
             <div className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">
-                Bachelor of Science in Computer Science
+                Bachelor of Electronics & Communication Engineering
               </h3>
               <p className="text-primary mb-2">
                 {" "}
-                Madras University • 2021 - 2024
+                Deemed University • 2024 - 2028
               </p>
               <p className="text-secondary">
-                Graduated with honors. Focused on Full stack and web
-                development.
+                Still a student, but already building my path toward becoming a full-stack web developer .
               </p>
             </div>
           </motion.div>

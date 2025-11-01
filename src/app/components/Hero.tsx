@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn, fadeInUp, scaleIn } from "@/utils/animations";
 
@@ -17,7 +17,7 @@ const Hero = () => {
             transition={{ delay: 0.2 }}
             className="flex flex-col items-center mb-4"
           >
-            <Image
+           <Image
               src="/profile.avif"
               alt="profile img"
               width={100}
@@ -36,15 +36,15 @@ const Hero = () => {
               transition={{ delay: 0.8 }}
               className="text-primary"
             >
-              Mohan Kumar
+              Rohith
             </motion.span>
           </motion.h1>
           <motion.p
             {...fadeInUp}
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
-          >
-            Full stack Developer | Intern
+          > 
+            Frontend Developer | Student
           </motion.p>
           <motion.div
             {...fadeInUp}
@@ -62,7 +62,7 @@ const Hero = () => {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/mohan-kumar-b28109309"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -79,7 +79,7 @@ const Hero = () => {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaTwitter />
+              <FaInstagram />
             </motion.a>
           </motion.div>
           <motion.div
@@ -98,7 +98,7 @@ const Hero = () => {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 href="/contact"
-                className="bg-gray-500 inline-block w-full md:w-auto text-white hover:text-gray-800 px-8 py-3 rounded-lg hover:bg-gray-300 transition-colors"
+                className="bg-gray-500 inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-gray-600 transition-colors"
               >
                 Contact Me
               </Link>

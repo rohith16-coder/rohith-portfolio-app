@@ -24,7 +24,6 @@ export default function Projects() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         Here are some of my recent projects. Click on the links to view the code
-        or live demo.
       </motion.p>
 
       <motion.div

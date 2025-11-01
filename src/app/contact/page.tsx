@@ -70,8 +70,10 @@ const ContactPage = () => {
           <motion.div {...fadeInUp}>
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
             <p className="text-secondary mb:w-2/3">
-              I&#39;m always open to discussing new projects, creative ideas, or
-              opportunitites to be part of you vision.
+              I&#39;m a student and front-end developer who loves turning ideas
+              into interactive web experiences. I&#39;m always open to learning,
+              collaborating, and exploring projects that help me grow and create
+              something meaningful.
             </p>
           </motion.div>
           <motion.div
@@ -93,7 +95,7 @@ const ContactPage = () => {
                   href="mailto:mohankumarwks@gmail.com"
                   className="text-secondary hover:text-primary"
                 >
-                  mohankumarwks@gmail.com
+                  tjrohith021@gmail.com
                 </a>
               </div>
             </motion.div>
@@ -110,7 +112,7 @@ const ContactPage = () => {
                   href="tel:+9940243245"
                   className="text-secondary hover:text-primary"
                 >
-                  +91 9940243245
+                  +91 89254 71080
                 </Link>
               </div>
             </motion.div>
@@ -123,7 +125,7 @@ const ContactPage = () => {
               <FaMapMarkedAlt className="w-6 h-6 text-primary" />
               <div>
                 <h3 className="font-semibold">Location</h3>
-                <p className="text-secondary">India, Chennai-600082</p>
+                <p className="text-secondary">India, Chennai-600011</p>
               </div>
             </motion.div>
           </motion.div>
@@ -139,6 +141,8 @@ const ContactPage = () => {
             animate="animate"
             className="space-y-6"
             onSubmit={handleSubmit}
+            action="https://formspree.io/f/{form_id}"
+            method="post"
           >
             <motion.div variants={fadeInUp}>
               <label htmlFor="name" className="block text-sm font-medium mb-2">

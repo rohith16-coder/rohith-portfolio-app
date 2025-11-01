@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
             <FaGithub />
           </Link>
           <Link
-            href="/"
+            href="https://linkedin.com/in/mohan-kumar-b28109309"
             target="_blank"
             className="text-2xl hover:text-primary transition-colors duration-300"
           >
@@ -27,14 +27,14 @@ const Footer = () => {
             target="_blank"
             className="text-2xl hover:text-primary transition-colors duration-300"
           >
-            <FaTwitter />
+            <FaInstagram />
           </Link>
         </div>
         <p className="text-sm mb-2">
-          &copy; {new Date().getFullYear()} Mohan Kumar. All rights reserved.
+          &copy; {new Date().getFullYear()} Rohith. All rights reserved.
         </p>
         <p className="text-xs text-gray-500 dark:text-gray-400">
-          Built with using Next.js & Tailwind CSS
+          Built with using Next.js 15, React 19, TypeScript, Tailwind CSS 4
         </p>
       </div>
     </footer>
